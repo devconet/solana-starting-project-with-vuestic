@@ -1,5 +1,10 @@
+<script setup>
+import CryptoPrice from './components/solana/CryptoPrice.vue'
+</script>
+
 <template>
   <RouterView />
+  <CryptoPrice />
 </template>
 
 <style lang="scss">
